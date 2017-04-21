@@ -1,0 +1,113 @@
+/*
+Theme Name: factorian
+Theme URI: http://underscores.me/
+Author: nilsagor
+Author URI: http://nilsagor.me
+Description: wordpress practice
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: factorian_theme
+*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+	line-height: 28px;
+	font-size: 14px;
+}
+
+.header-top-area {
+    background: #222;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.header-top-area a, .header-top-area {
+    color: #fff;
+}
+
+.header-top-area i.fa {
+    color: #f9bf3b;
+}
+
+.separator {
+    color: #a7a7a7;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+.header-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.header-menu li {
+    position: relative;
+    display: inline-block;
+}
+
+
+.mainmenu li a {
+    display: block;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 30px 20px;
+}
+
+.mainmenu li:hover>a {
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
+
+.logo a {
+    color: #222;
+}
+
+.logo {
+    text-transform: uppercase;
+    padding: 12px 0;
+}
+
+.logo h1 {
+    margin: 5px 2px;
+    font-size: 16px;
+    display: inline-block;
+    border: solid 3px #494949;
+    padding: 10px 20px;
+}
+
+
+.header-search-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    display: none;
+}
+
+.site-footer {
+    background: #222;
+    color: #fff;
+}
+
+.site-footer ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	line-height: 2.1;
+}
+.site-footer a {
+    color: #fff;
+}
+
+.site-footer .widget {
+    padding: 90px 0;
+    margin: 0;
+}
+
+
